@@ -223,7 +223,7 @@ return {
 	leader = { key="x", mods = "CTRL"},
 	  keys = {
 		{ key = "`", mods = "LEADER|CTRL",  action=wezterm.action{SendString="`"}},
-		{ key = "v", mods = "CTRL",  action=wezterm.action{PasteFrom = "Clipboard"}},
+	--	{ key = "v", mods = "CTRL",  action=wezterm.action{PasteFrom = "Clipboard"}},
 		{ key = "-", mods = "LEADER",       action=wezterm.action{SplitVertical={domain="CurrentPaneDomain"}}},
 		{ key = "\\",mods = "LEADER",       action=wezterm.action{SplitHorizontal={domain="CurrentPaneDomain"}}},
 		{ key = "c", mods = "LEADER",       action=wezterm.action{SpawnTab="CurrentPaneDomain"}},
