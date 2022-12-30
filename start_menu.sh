@@ -77,12 +77,12 @@ then
 #	done
 #fi
 #	}
-#do
+##do
 		video=$(find ./ -type f | shuf -n 1)
   	ffmpeg -re -i "$video" -preset ultrafast -vcodec libx264 -g 60 -b:v 1500k -c:a aac -b:a 92k -strict -2 -f flv ${rtmp}
- 		done
+ 	done
 fi
-}
+   }
 # 停止推流
 stream_stop(){
 	screen -S stream -X quit
