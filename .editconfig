@@ -1,0 +1,33 @@
+# top-most EditorConfig file
+root = true
+
+
+#可以格式化文件类型
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+#  JavaScript 和 TypeScript 文件格式
+[*.js]
+indent_style = space
+indent_size = 2
+
+[*.ts]
+indent_style = space
+indent_size =2
+
+# Html 文件格式化
+[*.html]
+indent_style = space
+indent_size = 2
+
+# CSS 和 SCSS文件格式化
+[*.css]
+indent_style = space
+indent_size = 2
+
+[*.scss]
+indent_style = space
+indent_size = 2
