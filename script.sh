@@ -1,0 +1,1 @@
+python3 upload_video.py --file="/mnt/e/预备上传/Mixkit-Heavy-Rain-Drops-15sec-upload.mp4" --title="Summer vacation in California" --description="Had fun surfing in Santa Cruz" --keywords="surfing,Santa Cruz" --category="22" --privacyStatus="private"
