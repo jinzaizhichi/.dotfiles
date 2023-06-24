@@ -1,0 +1,12 @@
+syntax on
+set background=dark
+set number
+set mouse=a
+set t_Co=256
+set rnu
+set ts=4
+set autoindent
+set encoding=utf-8
+inoremap jj <esc>
+
+set clipboard+=unnamed
