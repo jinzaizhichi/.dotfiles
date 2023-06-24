@@ -113,17 +113,10 @@ source $ZSH/oh-my-zsh.sh
 
 setopt HIST_IGNORE_SPACE
 
-<<<<<<< HEAD
-if [ -z "$TMUX" ]
-then
-    tmux attach -t TMUX || tmux new -s TMUX
-fi
-=======
 #if [ -z "$TMUX" ]
 #then
     #tmux attach -t TMUX || tmux new -s TMUX
 #fi
->>>>>>> main
 bindkey '^j' autosuggest-accept
 bindkey '^k' autosuggest-execute
 bindkey '^h' autosuggest-clear
