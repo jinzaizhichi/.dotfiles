@@ -122,9 +122,9 @@ bindkey '^k' autosuggest-execute
 bindkey '^h' autosuggest-clear
 bindkey -s '\e\e' '\C-asudo \C-e'
 
-source /home/jinzaizhichi/.config/broot/launcher/bash/br
+#source /home/jinzaizhichi/.config/broot/launcher/bash/br
 
-eval "$(fasd --init auto)"
+#eval "$(fasd --init auto)"
 
 
 alias v='f -e nvim' # quick opening files with vim
@@ -133,7 +133,7 @@ alias o='a -e xdg-open' # quick opening files with xdg-open
 
 
 
-source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
+#source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
